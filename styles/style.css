@@ -308,59 +308,41 @@ footer p {
     /* Features Enjoy Responsive */
     .features {
         flex-direction: column;
+        margin: 40px 20px; 
+        gap: 30px;
+    }
+
+    .feature-text-title, 
+    .feature-card {
+        width: 100%; 
         margin-left: 0;
-        align-items: center;
-    }
-
-    .feature-text {
-        max-width: 100%;
-        min-height: auto;
-
-    }
-
-    #feature-section-title {
-        border-left: 5px solid #FF900E;
-    }
-
-    .feature-text-title {
-        width: 70%
     }
 
     .feature-title {
-        font-size: 2.5rem;
-        font-weight: 700;
-        width: 50%;
-    }
-
-    .feature-description {
-        margin-bottom: 20px
-    }
-
-    .feature-card {
-        height: auto;
-        width: 70%;
-        border-radius: 10px;
-        padding: auto;
-        margin-left: -10px;
+        font-size: 2rem;
+        width: 100%;
     }
 
     .feature-img {
-        display: flex;
-        flex-direction: column;
+        width: 100%;
+        position: relative;
     }
 
+    .feature-img img {
+        width: 100%;
+    }
+
+
     .feature-img button {
-        /* width: 340px;
-        height: 200px;
-        padding: 45px 42px;
-        margin-top: -120px;
-        margin-left: -76px;
-        border-radius: 20px; */
-        width: 40%;
+        width: 100%;
         height: auto;
         padding: 20px;
-        margin: 40px auto auto auto;
-        border-radius: 10px;
+        margin: 20px 0 0 0; 
+        position: static; 
+    }
+    
+    #experience-year {
+        font-size: 2rem; 
     }
 
 
@@ -418,56 +400,11 @@ footer p {
     }
 
     /* Features Enjoy Responsive */
-    .features {
-        flex-direction: column;
-        margin-left: 0;
-        align-items: center;
-    }
-
-    .feature-text {
-        max-width: 100%;
-        min-height: auto;
-
-    }
-
-    #feature-section-title {
-        border-left: 5px solid #FF900E;
-    }
-
-    .feature-text-title {
-        width: 70%
-    }
-
-    .feature-title {
-        font-size: 2.5rem;
-        font-weight: 700;
-        width: 50%;
-    }
-
-    .feature-description {
-        margin-bottom: 20px
-    }
-
-    .feature-card {
-        height: auto;
-        width: 70%;
-        border-radius: 10px;
-        padding: auto;
-        margin-left: -10px;
-    }
-
-    .feature-img {
-        display: flex;
-        flex-direction: column;
-    }
-
     .feature-img button {
-        width: 40%;
-        height: auto;
-        padding: 20px;
-        margin-top: -120px;
-        margin-left: 76px;
-        border-radius: 10px;
+        width: 250px;
+        margin-top: -80px; 
+        margin-left: 0;
+        align-self: center;
     }
 
 
